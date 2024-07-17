@@ -3,3 +3,63 @@
 body{
   font-family: "Mulish", sans-serif;
 }
+
+*{
+  margin: 5px;
+}
+
+/* Shared Style */
+.display-flex{
+   display: flex;
+}
+.text-orange , #orange{
+  color: rgb(255, 84, 0);
+}
+.align-center{
+  align-items: center;
+}
+
+/* nav style */
+header{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.nav-logo img{
+  width: 35px;
+  height: 40px;
+}
+.nav-logo h3{
+  font-size: 2.2rem;
+}
+.nav-item ul li{
+  list-style: none;
+  margin-left: 50px;
+}
+.nav-item ul li a{
+  text-decoration: none;
+  color: black;
+}
+.orange{
+  color:  rgb(255, 84, 0);
+}
+.navbar{
+  justify-content: space-between;
+}
+
+
+/* For Mobile Devices */
+@media screen and (max-width:576px) {
+   /* Nav section start */
+  header nav{
+    flex-direction: column;
+  }
+  nav div ul{
+    flex-direction: column;
+    padding: 0;
+  }
+  .nav-item ul li{
+    margin-left: 0;
+  }
+  /* Nav section End */
+
+}
