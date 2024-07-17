@@ -45,7 +45,50 @@ header{
 .navbar{
   justify-content: space-between;
 }
+.btn-primary{
+  background-color: rgb(255, 84, 0);
+  color: white;
+  padding: 13px 32px;
+  border: none;
+  border-radius: 8px;
+}
+/* Navbar section End */
 
+/* banner section */
+.banner-container{
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.8),
+   rgba(19, 19, 24, 0) 100%),
+  url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1170px;
+  height: 500px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-heading{
+  font-size: 4rem;
+  color: white;
+}
+.banner-container p{
+  color: white;
+}
+.banner-input input, .banner-input select,.banner-input select{
+  padding: 16px 32px;
+  border-radius: 8px;
+  border: none;
+}
+.banner-input{
+  background-color: rgba(255, 255, 255, 0.3);
+  max-width: 800px;
+  border-radius: 8px;
+  margin: 2rem auto;
+  padding: 10px 30px;
+}
 
 /* For Mobile Devices */
 @media screen and (max-width:576px) {
